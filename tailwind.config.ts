@@ -16,7 +16,14 @@ const config: Config = {
       },
       fontFamily: {
       'PublicSans': ['Public Sans', 'sans-serif'],
-    },
+      },
+         fontSize: {
+        'custom-xl': '28px',
+        'custom-2xl': '34px',
+        'custom-3xl': '42px',
+        'custom-4xl': '56px',
+        'custom-5xl': '120px',
+      },
       backgroundImage: {
      
       },
