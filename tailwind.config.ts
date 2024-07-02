@@ -27,6 +27,11 @@ const config: Config = {
       backgroundImage: {
      
       },
+      colors: {
+        chileanFire: "#F58505",
+        bunker: "#040707",
+        iron:"#E2E4E4",
+      }
     },
   },
   plugins: [],
