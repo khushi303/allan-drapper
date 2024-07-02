@@ -8,10 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      container: {
+      padding: {
+        DEFAULT: '16px',
+      },
+      center: true,
+      },
+      fontFamily: {
+      'PublicSans': ['Public Sans', 'sans-serif'],
+    },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+     
       },
     },
   },
