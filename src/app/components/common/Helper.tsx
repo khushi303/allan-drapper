@@ -87,85 +87,108 @@ export const podcastsList = [
   },
 ];
 
-export const booksList=[
+export const booksList = [
   {
-    title:"Business Leadership/Management",
-    books:[
+    title: "Business Leadership/Management",
+    books: [
       {
-        image:"/assets/images/png/good-to-create.png",
-        title:"Good to Great",
-        author:"-Jim Collins"
+        image: "/assets/images/png/good-to-create.png",
+        title: "Good to Great",
+        author: "-Jim Collins",
       },
       {
-        image:"/assets/images/png/seven-habit.png",
-        title:"Seven Habits of Highly Effective People",
-        author:"-Steven Covey"
+        image: "/assets/images/png/seven-habit.png",
+        title: "Seven Habits of Highly Effective People",
+        author: "-Steven Covey",
       },
       {
-        image:"/assets/images/png/delivary.png",
-        title:"Delivering Happiness",
-        author:"-Tony Hsieh"
+        image: "/assets/images/png/delivary.png",
+        title: "Delivering Happiness",
+        author: "-Tony Hsieh",
       },
-    ]
+    ],
   },
   {
-    title:"Personal Improvement",
-    books:[
+    title: "Personal Improvement",
+    books: [
       {
-        image:"/assets/images/png/deep-work.png",
-        title:"Deep Work",
-        author:"-Cal Newport"
+        image: "/assets/images/png/deep-work.png",
+        title: "Deep Work",
+        author: "-Cal Newport",
       },
       {
-        image:"/assets/images/png/start-with.png",
-        title:"Start with Why",
-        author:"-Simon Sinek"
+        image: "/assets/images/png/start-with.png",
+        title: "Start with Why",
+        author: "-Simon Sinek",
       },
       {
-        image:"/assets/images/png/procrastinate.png",
-        title:"Procrastinate on Purpose",
-        author:"-Rory Vaden"
+        image: "/assets/images/png/procrastinate.png",
+        title: "Procrastinate on Purpose",
+        author: "-Rory Vaden",
       },
-    ]
+    ],
   },
   {
-    title:"Inspirational/Motivational",
-    books:[
+    title: "Inspirational/Motivational",
+    books: [
       {
-        image:"/assets/images/png/shoe-dog.png",
-        title:"Shoe Dog",
-        author:"-Phil Knight"
+        image: "/assets/images/png/shoe-dog.png",
+        title: "Shoe Dog",
+        author: "-Phil Knight",
       },
       {
-        image:"/assets/images/png/tuesday.png",
-        title:"tuesday with Morrie",
-        author:"-Mitch Albom"
+        image: "/assets/images/png/tuesday.png",
+        title: "tuesday with Morrie",
+        author: "-Mitch Albom",
       },
       {
-        image:"/assets/images/png/elon-mush.png",
-        title:"Elon Musk",
-        author:"-Walter Issacson"
+        image: "/assets/images/png/elon-mush.png",
+        title: "Elon Musk",
+        author: "-Walter Issacson",
       },
-    ]
+    ],
   },
   {
-    title:"Wealth Building",
-    books:[
+    title: "Wealth Building",
+    books: [
       {
-        image:"/assets/images/png/cashflow.png",
-        title:"Cashflow Quadrant",
-        author:"-Robert Kiyosaki"
+        image: "/assets/images/png/cashflow.png",
+        title: "Cashflow Quadrant",
+        author: "-Robert Kiyosaki",
       },
       {
-        image:"/assets/images/png/think.png",
-        title:"Think and Grow Rich",
-        author:"-Napoleon Hill"
+        image: "/assets/images/png/think.png",
+        title: "Think and Grow Rich",
+        author: "-Napoleon Hill",
       },
       {
-        image:"/assets/images/png/next-door.png",
-        title:"The Millionaire Next Door",
-        author:"-Thomas Stanley"
+        image: "/assets/images/png/next-door.png",
+        title: "The Millionaire Next Door",
+        author: "-Thomas Stanley",
       },
-    ]
+    ],
   },
-]
+];
+
+export const myBrandDataList = [
+  {
+    image: "/assets/images/png/proof.png",
+    name: "proof",
+  },
+  {
+    image: "/assets/images/png/rana-hub.png",
+    name: "ranahub",
+  },
+  {
+    image: "/assets/images/png/proof-marketing.png",
+    name: "proofmarketing",
+  },
+  {
+    image: "/assets/images/png/proof-gives-back.png",
+    name: "proofgivesback",
+  },
+  {
+    image: "/assets/images/png/lizard.png",
+    name: "lizard",
+  },
+];

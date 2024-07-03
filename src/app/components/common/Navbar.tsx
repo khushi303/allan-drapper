@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="sm:py-3.5 py-2 relative z-50">
       <div className="container xl:max-w-[1272px]">
         <div className="flex items-center justify-between">
-          <Link href={"#"} className="relative z-50">
+          <Link href={"/"} className="relative z-50">
             <Image
               src={"/assets/images/png/logo.png"}
               alt="logo"
