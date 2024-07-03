@@ -23,16 +23,13 @@
   font-weight: 700;
 }
 @font-face {
-  font-family: ArquitectaBook sans-serif;
+  font-family: Arquitecta sans-serif;
   src: url("../../public/font/arquitecta/ArquitectaBook.otf");
+  font-weight: 400;
 }
 @font-face {
   font-family: Arquitecta sans-serif;
   src: url("../../public/font/arquitecta/ArquitectaMedium.otf");
-}
-
-.ff_arquitecta_normal {
-  font-family: ArquitectaBook sans-serif !important;
 }
 
 h1 {
@@ -49,12 +46,13 @@ h1 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  animation: scroll 60s linear infinite;
-  -webkit-animation: scroll 60s linear infinite;
+  animation: scroll 200s linear infinite;
+  -webkit-animation: scroll 200s linear infinite;
 }
 .coursal:hover .slide_container {
   animation-play-state: paused;
 }
+
 @keyframes scroll {
   100% {
     -webkit-transform: translatex(-100%);

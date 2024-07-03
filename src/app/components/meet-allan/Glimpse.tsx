@@ -1,11 +1,11 @@
 import React from "react";
-import { H2 } from "../common/Heading";
+import { H3 } from "../common/Heading";
 import Image from "next/image";
 
 const Glimpse = () => {
   return (
     <div className="container xl:max-w-[1172px]">
-      <H2 heading="A Glimpse into Our Togetherness" className="text-center" />
+      <H3 heading="A Glimpse into Our Togetherness" className="text-center" />
       <div className="w-14 h-[5px] bg-ripeLemon sm:mt-5 mt-3 mx-auto"></div>
       <div className="grid mt-12 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 mb-16">
         <div className="col-span-1 flex flex-col gap-6">
