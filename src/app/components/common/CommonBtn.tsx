@@ -3,7 +3,7 @@ interface IProps {
   className: string;
 }
 
-export const Button = (props: IProps) => {
+export const CommonBtn = (props: IProps) => {
   const { children, className } = props;
   return (
     <button

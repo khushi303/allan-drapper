@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { Button } from "./Button";
+import { CommonBtn } from "./CommonBtn";
 import { MenuIcon } from "./Icons";
 
 const Navbar = () => {
@@ -81,9 +81,9 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <Button className="text-lg leading-7 bg-transparent !text-chileanFire">
+            <CommonBtn className="text-lg leading-7 bg-transparent !text-chileanFire">
               Newsletter
-            </Button>
+            </CommonBtn>
           </div>
           <div
             onClick={() => setNavBarVisible(!navBarVisible)}

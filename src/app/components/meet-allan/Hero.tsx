@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "../common/Button";
+import { CommonBtn } from "../common/CommonBtn";
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
             sacrifices to build businesses and wealth. Are you next?
           </p>
         </div>
-        <Button className="text-nowrap">talk to allan</Button>
+        <CommonBtn className="text-nowrap">talk to allan</CommonBtn>
       </div>
       <Image
         src={"/assets/images/png/signature.svg"}

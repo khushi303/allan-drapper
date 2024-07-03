@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./common/Button";
+import { CommonBtn } from "./common/CommonBtn";
 import Image from "next/image";
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
               business and how to build wealth without sacrificing what matters
               most.
             </p>
-            <Button className="px-6">Start Now</Button>
+            <CommonBtn className="px-6">Start Now</CommonBtn>
           </div>
           <div className="lg:w-[40%] md:w-3/6 sm:w-4/6 w-5/6 relative">
             <Image
