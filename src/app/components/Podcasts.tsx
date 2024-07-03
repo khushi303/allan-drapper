@@ -1,10 +1,11 @@
 import { H2 } from "./common/Heading";
 import { PlayIcon } from "./common/Icons";
 import { podcastsList } from "./common/Helper";
+import { Button } from "./common/Button";
 
 const Podcasts = () => {
   return (
-    <div className="w-full px-3 pt-[154px]">
+    <div className="w-full px-3 py-10 sm:py-12 md:py-16 lg:py-20 xl:pt-[154px] xl:pb-24">
       <div className="container px-0 mx-auto max-w-[1140px]">
         <div className="flex justify-center">
           <H2
@@ -12,7 +13,7 @@ const Podcasts = () => {
             heading="Podcasts"
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 mt-[87px] gap-4 sm:gap-5 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 mt-8 sm:mt-10 md:mt-12 lg:mt-14 xl:mt-[87px] gap-4 sm:gap-5 md:gap-6">
           {podcastsList.map((podcast, index) => (
             <div key={index} className={`border border-gray p-3 sm:p-4 ${index ===2 && "md:col-span-2 lg:col-span-1 md:w-1/2 lg:w-full md:mx-auto lg:mx-0"}`}>
               <div className="flex gap-4 sm:gap-5 items-center max-lg:flex-col">
@@ -44,6 +45,10 @@ const Podcasts = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center gap-4 items-center mt-5 sm:mt-7 md:mt-10 xl:mt-[67px]">
+        <Button className="px-6 border border-transparent">BE A GUEST</Button>
+        <Button className="px-6 border border-bunker !bg-transparent border-opacity-80 !text-bunker">HAVE ME ON YOUR SHOW</Button>
         </div>
       </div>
     </div>
