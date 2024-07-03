@@ -14,11 +14,13 @@
 @font-face {
   font-family: Arquitecta sans-serif;
   src: url("../../public/font/arquitecta/ArquitectaBlack.otf");
+  font-weight: 900;
 }
 
 @font-face {
   font-family: Arquitecta sans-serif;
   src: url("../../public/font/arquitecta/ArquitectaBold.otf");
+  font-weight: 700;
 }
 @font-face {
   font-family: ArquitectaBook sans-serif;
