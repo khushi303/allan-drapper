@@ -10,7 +10,7 @@ const WhoIsAllan = () => {
           <div className="xl:min-w-[526px] xl:max-w-[526px]">
             <H2 heading="Who is Allan Draper ?" className="" />
             <div className="sm:mt-5 mt-3 h-[5px] bg-chileanFire w-14 sm:mb-8 mb-4"></div>
-            <p className="text-2xl font-medium leading-[150%] text-bunker">
+            <p className="text-2xl font-medium leading-150 text-bunker">
               Allan’s story may sound familiar. It’s probably a lot like yours.
               Allan grew up in home that had very few financial resources. But
               there was something inside him. Something that yearned for more.

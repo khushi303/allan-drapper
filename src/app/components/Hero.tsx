@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="container max-w-[1172px]">
         <div className="flex lg:flex-row flex-col items-center xl:gap-14 gap-10">
           <div className="lg:w-[55%] w-full">
-            <h2 className="sm:text-custom-4xl text-4xl leading-[110%] text-white font-bold sm:mb-4 mb-3">
+            <h2 className="sm:text-custom-4xl text-4xl leading-110 text-white font-bold sm:mb-4 mb-3">
               Create Your Dream Life through Entrepreneurship
             </h2>
             <p className="text-white text-2xl sm:mb-10 mb-6">
