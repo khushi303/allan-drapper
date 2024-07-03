@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import FreePdf from "./components/FreePdf";
 
 export const metadata: Metadata = {
   title: "Allan Drapper",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+        <FreePdf />
       </body>
     </html>
   );
