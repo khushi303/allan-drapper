@@ -5,7 +5,7 @@ import { principlesList } from "../common/Helper";
 
 const AllanPrinciples = () => {
   return (
-    <div className="bg-principleBlackLayer bg-cover bg-no-repeat bg-center lg:py-0 py-14">
+    <div className="bg-principleBlackLayer bg-cover bg-no-repeat bg-center lg:py-0 sm:py-16 py-12">
       <div className="container xl:max-w-[1276px]">
         <div className="flex gap-3.5 items-center lg:flex-row flex-col">
           <div className="pt-3">

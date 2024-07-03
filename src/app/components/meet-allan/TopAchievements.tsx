@@ -6,7 +6,7 @@ import { GreenSquare } from "../common/Icons";
 
 const TopAchievements = () => {
   return (
-    <div className="container xl:max-w-[1172px] mt-36 pt-1.5 mb-36 pb-3">
+    <div className="container xl:max-w-[1172px] xl:mt-36 lg:pt-1.5 xl:mb-36 lg:pb-3 sm:mt-16 mt-12">
       <div className="flex xl:gap-[95px] gap-10 items-center lg:flex-row flex-col">
         <Image
           src={"/assets/images/png/red_shirt_man.png"}
