@@ -37,6 +37,7 @@ const config: Config = {
           gray:"#686C6B",
       },
       lineHeight: {
+        105: "105%",
         110: "110%",
         120: "120%",
         130: "130%",
