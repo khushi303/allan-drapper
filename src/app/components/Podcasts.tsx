@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { H2 } from "./common/Heading";
+import { PlayIcon } from "./common/Icons";
 
 const Podcasts = () => {
   const podcastsList = [
@@ -34,14 +35,22 @@ const Podcasts = () => {
                     <button className="text-ripeLemon bg-bunker py-[3px] px-[10px] rounded-full font-black text-sm sm:text-base">
                       S2 &nbsp;-&nbsp; Ep: {`14${4 + index + 1}`}
                     </button>
-                    <p className="text-gray text-sm sm:text-base font-medium">Dec 4, 2023</p>
+                    <p className="text-gray text-sm sm:text-base font-medium">
+                      Dec 4, 2023
+                    </p>
                   </div>
-                  <p className="mt-4 text-bunker font-bold text-xl sm:text-2xl md:text-custom-xl !leading-[120%]">{podcast.title}</p>
-                  <p className="mt-[10px] text-bunker font-medium text-lg sm:text-xl md:text-2xl">{podcast.description}</p>
+                  <p className="mt-4 text-bunker font-bold text-xl sm:text-2xl md:text-custom-xl !leading-[120%]">
+                    {podcast.title}
+                  </p>
+                  <p className="mt-[10px] text-bunker font-medium text-lg sm:text-xl md:text-2xl">
+                    {podcast.description}
+                  </p>
                   <Link className="mt-5" href={""}>
                     Read More
                   </Link>
-                  <span></span>
+                  <button className=" absolute">
+                    <PlayIcon />
+                  </button>
                 </div>
               </div>
             </div>
