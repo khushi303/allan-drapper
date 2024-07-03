@@ -29,7 +29,10 @@
   src: url("../../public/font/arquitecta/ArquitectaMedium.otf");
 }
 
-
 .ff_arquitecta_normal {
   font-family: ArquitectaBook sans-serif !important;
+}
+
+h1 {
+  -webkit-text-stroke: 1px #A3CCC4;
 }

@@ -9,34 +9,42 @@ const config: Config = {
   theme: {
     extend: {
       container: {
-      padding: {
-        DEFAULT: '16px',
-      },
-      center: true,
+        padding: {
+          DEFAULT: "16px",
+        },
+        center: true,
       },
       fontFamily: {
-      'PublicSans': ['Public Sans', 'sans-serif'],
+        PublicSans: ["Public Sans", "sans-serif"],
       },
-         fontSize: {
-        'custom-xl': '28px',
-        'custom-2xl': '34px',
-        'custom-3xl': '42px',
-        'custom-4xl': '56px',
-        'custom-5xl': '120px',
+      fontSize: {
+        "custom-xl": "28px",
+        "custom-2xl": "34px",
+        "custom-3xl": "42px",
+        "custom-4xl": "56px",
+        "custom-5xl": "120px",
       },
       backgroundImage: {
         heroBlack: "url('/assets/images/png/herobg.png')",
+        principleBlackLayer: "url('/assets/images/png/principle-black-layer.png')",
       },
       colors: {
         chileanFire: "#F58505",
         bunker: "#040707",
         iron: "#E2E4E4",
         ripeLemon: "#EEE916",
-        shadowGreen:"#A3CCC4",
+        shadowGreen: "#A3CCC4",
+      },
+      lineHeight: {
+        110: "110%",
+        120: "120%",
+        130: "130%",
+        140: "140%",
+        150: "150%",
       },
       screens: {
-        custom2xl:"1400px"
-      }
+        custom2xl: "1400px",
+      },
     },
   },
   plugins: [],

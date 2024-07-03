@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="container max-w-[1172px] lg:mt-24 lg:py-1 mt-16">
       <div className="flex md:items-end items-center md:flex-row flex-col justify-between sm:gap-10 gap-6 sm:mb-10 mb-8">
         <div className="max-w-[537px] w-full">
-          <h2 className="text-custom-4xl leading-[110%] text-white text-bold">
+          <h2 className="text-custom-4xl leading-110 text-white text-bold">
             Meet Allan
           </h2>
           <p className="sm:mt-4 mt-2 text-2xl text-white font-medium">
