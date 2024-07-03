@@ -7,13 +7,13 @@ const NeverSacrifice = () => {
       <p className="sm:text-custom-4xl text-custom-3xl font-bold leading-110 text-bunker text-center lg:mb-14 sm:mb-8 mb-4">
         Never Sacrifice These 3 Things
       </p>
-      <h1 className="lg:text-custom-5xl sm:text-6xl text-custom-3xl !leading-120 font-black tracking-widest text-center uppercase text-transparent">
+      <h1 className="lg:text-custom-5xl sm:text-6xl text-custom-3xl !leading-120 font-black tracking-widest text-center uppercase text-transparent stroke-green">
         Your Family
       </h1>
-      <h1 className="lg:text-custom-5xl sm:text-6xl text-custom-3xl !leading-120 font-black tracking-widest text-center uppercase text-white">
+      <h1 className="lg:text-custom-5xl sm:text-6xl text-custom-3xl !leading-120 font-black tracking-widest text-center uppercase text-white stroke-orange">
         Your Heart
       </h1>
-      <h1 className="lg:text-custom-5xl sm:text-6xl text-custom-3xl !leading-120 font-black tracking-widest text-center uppercase text-white">
+      <h1 className="lg:text-custom-5xl sm:text-6xl text-custom-3xl !leading-120 font-black tracking-widest text-center uppercase text-white stroke-yellow">
         Your Dignity
       </h1>
       <div className="lg:mt-16 md:mt-10 mt-8">
