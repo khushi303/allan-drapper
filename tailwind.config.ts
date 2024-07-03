@@ -25,12 +25,17 @@ const config: Config = {
         'custom-5xl': '120px',
       },
       backgroundImage: {
-     
+        heroBlack: "url('/assets/images/png/herobg.png')",
       },
       colors: {
         chileanFire: "#F58505",
         bunker: "#040707",
-        iron:"#E2E4E4",
+        iron: "#E2E4E4",
+        ripeLemon: "#EEE916",
+        shadowGreen:"#A3CCC4",
+      },
+      screens: {
+        custom2xl:"1400px"
       }
     },
   },
