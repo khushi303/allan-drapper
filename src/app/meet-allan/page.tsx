@@ -7,6 +7,7 @@ import NeverSacrifice from "../components/meet-allan/NeverSacrifice";
 import Glimpse from "../components/meet-allan/Glimpse";
 import WhoIsAllan from "../components/meet-allan/WhoIsAllan";
 import Books from "../components/Books";
+import GovernMoney from "../components/GovernMoney";
 
 const page = () => {
   return (
@@ -20,6 +21,7 @@ const page = () => {
       <AllanPrinciples />
       <NeverSacrifice />
       <Glimpse />
+      <GovernMoney />
       <Books />
     </>
   );

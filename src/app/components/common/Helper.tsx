@@ -212,3 +212,17 @@ export const myBrandDataList = [
     name: "lizard",
   },
 ];
+
+// ==============================GOVERN MONEY DATA ================================== 
+export const governMoneyList = [
+  { title:"In order to accumulate wealth you have to first believe that you are worthy of it."},
+  { title:"You must give away at least 10% of everything you make"},
+  { title:"You must save at least 10% of everything you make and never spend it (investing is not spending)"},
+  { title:"You must take risk."},
+  { title:"You must increase your ability to earn by creating passive income"},
+  { title:"You must diversify your assets with a mix of high risk/high reward, medium risk/medium reward and low risk/low reward."},
+  { title:"You must buy low and sell high (“Be greedy when others are fearful and fearful when others are greedy.” -Warren Buffet)"},
+  { title:"You must be able to put off short term satisfaction in exchange for long-term growth (and you must care less about what others think your financial status is than what it actually is)"},
+  { title:"You must have multiple streams of income"},
+  { title:"You must use debt wisely to make incremental growth"},
+]
