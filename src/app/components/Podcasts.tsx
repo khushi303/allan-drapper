@@ -1,7 +1,7 @@
 import { H2 } from "./common/Heading";
 import { PlayIcon } from "./common/Icons";
 import { podcastsList } from "./common/Helper";
-import { Button } from "./common/Button";
+import { CommonBtn } from "./common/CommonBtn";
 
 const Podcasts = () => {
   return (
@@ -47,8 +47,8 @@ const Podcasts = () => {
           ))}
         </div>
         <div className="flex justify-center gap-4 items-center mt-5 sm:mt-7 md:mt-10 xl:mt-[67px]">
-        <Button className="px-6 border border-transparent">BE A GUEST</Button>
-        <Button className="px-6 border border-bunker !bg-transparent border-opacity-80 !text-bunker">HAVE ME ON YOUR SHOW</Button>
+        <CommonBtn className="px-6 border border-transparent">BE A GUEST</CommonBtn>
+        <CommonBtn className="px-6 border border-bunker !bg-transparent border-opacity-80 !text-bunker">HAVE ME ON YOUR SHOW</CommonBtn>
         </div>
       </div>
     </div>
