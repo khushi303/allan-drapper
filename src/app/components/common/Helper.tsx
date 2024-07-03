@@ -142,7 +142,7 @@ export const booksList = [
         author:"Mitch Albom"
       },
       {
-        image:"/assets/images/png/elon-mush.png",
+        image:"/assets/images/png/elon-musk.png",
         title:"Elon Musk",
         author:"Walter Issacson"
       },
