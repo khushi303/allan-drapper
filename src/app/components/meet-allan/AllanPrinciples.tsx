@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { H2 } from "../common/Heading";
 import { principlesList } from "../common/Helper";
+import { H3 } from "../common/Heading";
 
 const AllanPrinciples = () => {
   return (
@@ -18,7 +18,7 @@ const AllanPrinciples = () => {
             />
           </div>
           <div className="lg:py-14">
-            <H2 heading="Allan's Principles" className="text-white mb-12" />
+            <H3 heading="Allan's Principles" className="text-white mb-12" />
             {principlesList.map((obj, index) => (
               <div key={index} className="lg:max-w-[407px]">
                 <div key={index} className="flex gap-3 items-center mb-2">

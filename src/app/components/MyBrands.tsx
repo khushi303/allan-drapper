@@ -1,26 +1,15 @@
 import React from "react";
-import { H2 } from "./common/Heading";
-import { myBrandDataList } from "./common/Helper";
-import Image from "next/image";
+import { H3 } from "./common/Heading";
+import CustomSlider from "./common/CustomSlider";
 
 const MyBrands = () => {
   return (
-    <div className="">
-      <H2 heading="My Brands" className="text-center px-4" />
-      <div className="w-14 h-[5px] bg-shadowGreen mx-auto mt-5"> </div>
-      <div className="coursal overflow-x-hidden flex">
-        <div className="slide_container gap-[104px]">
-          {myBrandDataList.map((obj, index) => (
-            <Image
-              key={index}
-              src={obj.image}
-              alt={obj.name}
-              width={240}
-              height={90}
-              className="max-"
-            />
-          ))}
-        </div>
+    <div className="container max-w-[1284px]">
+      <H3 heading="My Brands" className="text-center px-4" />
+      <div className="w-14 h-[5px] bg-shadowGreen mx-auto mt-5"></div>
+      <div className="coursal overflow-x-hidden flex lg:gap-[104px] gap-16 lg:my-24 sm:my-16 my-12 flex-nowrap">
+        <CustomSlider />
+        <CustomSlider />
       </div>
     </div>
   );

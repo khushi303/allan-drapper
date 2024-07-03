@@ -1,4 +1,5 @@
 import About from "./components/About";
+import FreePdf from "./components/FreePdf";
 import Hero from "./components/Hero";
 import MyBrands from "./components/MyBrands";
 import Podcasts from "./components/Podcasts";
@@ -13,9 +14,10 @@ export default function Home() {
         <Hero />
       </div>
       <About />
+      <Podcasts />
       <WhoIsAllan />
       <MyBrands />
-      <Podcasts />
+      <FreePdf />
     </main>
   );
 }

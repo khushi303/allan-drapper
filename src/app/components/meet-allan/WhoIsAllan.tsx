@@ -1,5 +1,5 @@
 import React from "react";
-import { H2 } from "../common/Heading";
+import { H3 } from "../common/Heading";
 import Image from "next/image";
 
 const WhoIsAllan = () => {
@@ -7,7 +7,7 @@ const WhoIsAllan = () => {
     <div className="container xl:max-w-[1172px] lg:pt-1.5 lg:pb-28 lg:mb-2 sm:py-16 py-12">
       <div className="flex lg:justify-between justify-center items-center lg:flex-row flex-col-reverse lg:gap-14 gap-8">
         <div className="lg:max-w-[443px] w-full">
-          <H2
+          <H3
             className="inline-block mx-auto relative after:absolute sm:pb-5 pb-3 after:bottom-0 after:h-[5px] after:bg-chileanFire after:w-16 after:left-0"
             heading="Who is Allan Draper ?"
           />

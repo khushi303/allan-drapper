@@ -14,9 +14,6 @@ const config: Config = {
         },
         center: true,
       },
-      fontFamily: {
-        PublicSans: ["Public Sans", "sans-serif"],
-      },
       fontSize: {
         "custom-xl": "28px",
         "custom-2xl": "34px",

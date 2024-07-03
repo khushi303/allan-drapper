@@ -14,25 +14,24 @@
 @font-face {
   font-family: Arquitecta sans-serif;
   src: url("../../public/font/arquitecta/ArquitectaBlack.otf");
+  font-weight: 900;
 }
 
 @font-face {
   font-family: Arquitecta sans-serif;
   src: url("../../public/font/arquitecta/ArquitectaBold.otf");
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: ArquitectaBook sans-serif;
+  font-family: Arquitecta sans-serif;
   src: url("../../public/font/arquitecta/ArquitectaBook.otf");
+  font-weight: 400;
 }
 
 @font-face {
   font-family: Arquitecta sans-serif;
   src: url("../../public/font/arquitecta/ArquitectaMedium.otf");
-}
-
-.ff_arquitecta_normal {
-  font-family: ArquitectaBook sans-serif !important;
 }
 
 h1 {

@@ -5,10 +5,10 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="sm:pt-14 sm:mt-1 pt-12">
-      <div className="container max-w-[1172px]">
-        <div className="flex lg:flex-row flex-col items-center xl:gap-14 gap-10">
-          <div className="lg:w-[55%] w-full">
-            <h2 className="sm:text-custom-4xl text-4xl leading-110 text-white font-bold sm:mb-4 mb-3">
+      <div className="container xl:max-w-[1172px]">
+        <div className="flex lg:flex-row flex-col xl:items-start items-center xl:gap-14 gap-10">
+          <div className="lg:w-[55%] w-full xl:pt-36">
+            <h2 className="sm:text-custom-4xl text-4xl leading-110 text-white font-bold  sm:mb-4 mb-3">
               Create Your Dream Life through Entrepreneurship
             </h2>
             <p className="text-white text-2xl sm:mb-10 mb-6">

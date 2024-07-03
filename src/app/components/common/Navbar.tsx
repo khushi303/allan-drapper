@@ -35,7 +35,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/meet-allan"
-                  className="text-xl text-white font-normal ff_arquitecta_normal text-nowrap"
+                  className="text-xl text-white font-normal  text-nowrap"
                 >
                   Meet Allan
                 </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#mybrands"
-                  className="text-xl text-white font-normal ff_arquitecta_normal text-nowrap"
+                  className="text-xl text-white font-normal  text-nowrap"
                 >
                   My Brands
                 </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#podcast"
-                  className="text-xl text-white font-normal ff_arquitecta_normal text-nowrap"
+                  className="text-xl text-white font-normal  text-nowrap"
                 >
                   Podcast
                 </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#coaching"
-                  className="text-xl text-white font-normal ff_arquitecta_normal text-nowrap"
+                  className="text-xl text-white font-normal  text-nowrap"
                 >
                   Coaching
                 </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#speaking"
-                  className="text-xl text-white font-normal ff_arquitecta_normal text-nowrap"
+                  className="text-xl text-white font-normal  text-nowrap"
                 >
                   Speaking
                 </a>
@@ -75,7 +75,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#connect"
-                  className="text-xl text-white font-normal ff_arquitecta_normal text-nowrap"
+                  className="text-xl text-white font-normal  text-nowrap"
                 >
                   Connect
                 </a>

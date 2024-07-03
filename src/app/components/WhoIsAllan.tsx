@@ -1,14 +1,14 @@
 import React from "react";
-import { H2 } from "./common/Heading";
+import { H3 } from "./common/Heading";
 import Image from "next/image";
 
 const WhoIsAllan = () => {
   return (
-    <div className="relative mb-36">
-      <div className="xl:pt-52 lg:py-24 py-16 container xl:max-w-[1112px] relative z-40">
+    <div className="relative xl:pb-36 xl:pt-52 lg:py-28 sm:py-16 py-12">
+      <div className="container xl:max-w-[1112px] relative z-40">
         <div className="flex xl:gap-[70px] sm:gap-12 gap-8 lg:justify-between justify-center lg:flex-row flex-col">
           <div className="xl:min-w-[526px] xl:max-w-[526px]">
-            <H2 heading="Who is Allan Draper ?" className="" />
+            <H3 heading="Who is Allan Draper ?" className="" />
             <div className="sm:mt-5 mt-3 h-[5px] bg-chileanFire w-14 sm:mb-8 mb-4"></div>
             <p className="text-2xl font-medium leading-150 text-bunker">
               Allan’s story may sound familiar. It’s probably a lot like yours.
@@ -37,7 +37,7 @@ const WhoIsAllan = () => {
           alt="blacklayer"
           width={1440}
           height={698}
-          className="w-full object-cover object-center min-h-[698px]"
+          className="w-full max-lg:object-cover object-right min-h-[698px] max-h-[689px] h-full"
         />
       </div>
     </div>
