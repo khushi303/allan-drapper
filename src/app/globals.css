@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  font-family: Arquitecta sans-serif;
+  font-family: Arquitecta sans-serif !important;
 }
 
 @font-face {

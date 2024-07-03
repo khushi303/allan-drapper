@@ -34,6 +34,7 @@ const config: Config = {
         iron: "#E2E4E4",
         ripeLemon: "#EEE916",
         shadowGreen: "#A3CCC4",
+          gray:"#686C6B",
       },
       lineHeight: {
         110: "110%",
