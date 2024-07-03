@@ -46,9 +46,9 @@ const Podcasts = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center gap-4 items-center mt-5 sm:mt-7 md:mt-10 xl:mt-[67px]">
-        <CommonBtn className="px-6 border border-transparent">BE A GUEST</CommonBtn>
-        <CommonBtn className="px-6 border border-bunker !bg-transparent border-opacity-80 !text-bunker">HAVE ME ON YOUR SHOW</CommonBtn>
+        <div className="flex justify-center gap-3 sm:gap-4 items-center mt-5 sm:mt-7 md:mt-10 xl:mt-[67px] max-sm:flex-col">
+        <CommonBtn className="px-6 border border-transparent max-sm:w-full">BE A GUEST</CommonBtn>
+        <CommonBtn className="px-6 border border-bunker !bg-transparent border-opacity-80 !text-bunker max-sm:w-full">HAVE ME ON YOUR SHOW</CommonBtn>
         </div>
       </div>
     </div>
